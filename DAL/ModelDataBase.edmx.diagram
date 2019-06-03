@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="793cd06e82ae4be9a1b91a7bd4a292df" Name="Diagram1">
+        <EntityTypeShape EntityType="cs_erpModel.A_PAGAR" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="cs_erpModel.A_RECEBER" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="cs_erpModel.BANCO" Width="1.5" PointX="8.25" PointY="16.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="cs_erpModel.CAIXA" Width="1.5" PointX="8.25" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="cs_erpModel.CAIXA_CLOSE" Width="1.5" PointX="6" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="cs_erpModel.CAIXA_OPEN" Width="1.5" PointX="6" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="cs_erpModel.CFOP" Width="1.5" PointX="13.5" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="cs_erpModel.CIDADE" Width="1.5" PointX="5.25" PointY="22.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="cs_erpModel.CLIENTES" Width="1.5" PointX="7.5" PointY="19.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="cs_erpModel.COMPRA" Width="1.5" PointX="18" PointY="24.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="cs_erpModel.CONDICAO_PAGAMENTO" Width="1.5" PointX="21" PointY="16.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="cs_erpModel.ENTRADA_CAIXA" Width="1.5" PointX="10.5" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="cs_erpModel.ESPECIE_PAGAMENTO" Width="1.5" PointX="23.25" PointY="17" IsExpanded="true" />
+        <EntityTypeShape EntityType="cs_erpModel.ESPECIEPAGAMENTO_FATURAMENTOVENDA" Width="1.5" PointX="25.5" PointY="18" IsExpanded="true" />
+        <EntityTypeShape EntityType="cs_erpModel.ESTADO" Width="1.5" PointX="3" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="cs_erpModel.FATURAMENTO_COMPRA" Width="1.5" PointX="20.25" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="cs_erpModel.FATURAMENTO_COMPRA_has_ESPECIE_PAGAMENTO" Width="1.5" PointX="25.5" PointY="29.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="cs_erpModel.FATURAMENTO_VENDA" Width="1.5" PointX="23.25" PointY="20.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="cs_erpModel.FORMA_RECEBIMENTO_PAGAMENTO" Width="1.5" PointX="25.5" PointY="21.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="cs_erpModel.FORNECEDOR" Width="1.5" PointX="7.5" PointY="25.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="cs_erpModel.FORNECEDOR_PRODUTOS" Width="1.5" PointX="9.75" PointY="26.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="cs_erpModel.FUNCAO" Width="1.5" PointX="8.25" PointY="35.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="cs_erpModel.GRUPO" Width="1.5" PointX="3" PointY="19" IsExpanded="true" />
+        <EntityTypeShape EntityType="cs_erpModel.GRUPO_PRODUTO" Width="1.5" PointX="11.25" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="cs_erpModel.MARCA" Width="1.5" PointX="15.75" PointY="16.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="cs_erpModel.MARCA_ORCAMENTOSERVICO" Width="1.5" PointX="18" PointY="17.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="cs_erpModel.MODELO" Width="1.5" PointX="18" PointY="14.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="cs_erpModel.ORCAMENTO_COMPRA" Width="1.5" PointX="12.75" PointY="25.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="cs_erpModel.ORCAMENTO_SERVICO" Width="1.5" PointX="12.75" PointY="19.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="cs_erpModel.ORCAMENTO_VENDA" Width="1.5" PointX="15.75" PointY="19.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="cs_erpModel.PAGO" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="cs_erpModel.PAIS" Width="1.5" PointX="0.75" PointY="23" IsExpanded="true" />
+        <EntityTypeShape EntityType="cs_erpModel.PARCELAR_COMPRA" Width="1.5" PointX="22.5" PointY="27.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="cs_erpModel.PARCELAS_VENDAS" Width="1.5" PointX="25.5" PointY="24.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="cs_erpModel.PONTO" Width="1.5" PointX="12.75" PointY="15.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="cs_erpModel.PRODUTO_ORCAMENTOVENDA" Width="1.5" PointX="18" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="cs_erpModel.PRODUTO_ORCCAMENTOCOMPRA" Width="1.5" PointX="15" PointY="26" IsExpanded="true" />
+        <EntityTypeShape EntityType="cs_erpModel.PRODUTOS" Width="1.5" PointX="15.75" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="cs_erpModel.RECEBIDO" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="cs_erpModel.REGISTRO" Width="1.5" PointX="10.5" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="cs_erpModel.REGISTRO_EMPRESA" Width="1.5" PointX="7.5" PointY="30" IsExpanded="true" />
+        <EntityTypeShape EntityType="cs_erpModel.SAIDA_CAIXA" Width="1.5" PointX="10.5" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="cs_erpModel.SANGRIA" Width="1.5" PointX="10.5" PointY="33" IsExpanded="true" />
+        <EntityTypeShape EntityType="cs_erpModel.SERVICOS" Width="1.5" PointX="15.75" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="cs_erpModel.SUBGRUPO_CLIENTE" Width="1.5" PointX="5.25" PointY="18.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="cs_erpModel.SUBGRUPO_PRODUTO" Width="1.5" PointX="13.5" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="cs_erpModel.TIPO_UNIDADE_PRODUTO" Width="1.5" PointX="13.5" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="cs_erpModel.TRIBUTACAO_PRODUTO" Width="1.5" PointX="13.5" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="cs_erpModel.TRIBUTOS_PRODUTO" Width="1.5" PointX="11.25" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="cs_erpModel.USUARIO" Width="1.5" PointX="10.5" PointY="18.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="cs_erpModel.VENDA" Width="1.5" PointX="21" PointY="20" IsExpanded="true" />
+        <AssociationConnector Association="cs_erpModel.FK__PAGO__A_PAGAR_ID__59FA5E80" ManuallyRouted="false" />
+        <AssociationConnector Association="cs_erpModel.FK__RECEBIDO__A_RECE__5CD6CB2B" ManuallyRouted="false" />
+        <AssociationConnector Association="cs_erpModel.FK__USUARIO__BANCO_I__01142BA1" ManuallyRouted="false" />
+        <AssociationConnector Association="cs_erpModel.FK__CAIXA__CAIXA_CLO__74AE54BC" ManuallyRouted="false" />
+        <AssociationConnector Association="cs_erpModel.FK__CAIXA__CAIXA_OPE__73BA3083" ManuallyRouted="false" />
+        <AssociationConnector Association="cs_erpModel.FK__ENTRADA_C__CAIXA__0F624AF8" ManuallyRouted="false" />
+        <AssociationConnector Association="cs_erpModel.FK__SAIDA_CAI__CAIXA__09A971A2" ManuallyRouted="false" />
+        <AssociationConnector Association="cs_erpModel.FK__SANGRIA__CAIXA_I__0C85DE4D" ManuallyRouted="false" />
+        <AssociationConnector Association="cs_erpModel.FK__USUARIO__CAIXA_I__02FC7413" ManuallyRouted="false" />
+        <AssociationConnector Association="cs_erpModel.FK__PRODUTOS__CFOP_I__7E37BEF6" ManuallyRouted="false" />
+        <AssociationConnector Association="cs_erpModel.FK__CIDADE__ESTADO_I__6B24EA82" ManuallyRouted="false" />
+        <AssociationConnector Association="cs_erpModel.FK__CLIENTES__CIDADE__787EE5A0" ManuallyRouted="false" />
+        <AssociationConnector Association="cs_erpModel.FK__FORNECEDO__CIDAD__6E01572D" ManuallyRouted="false" />
+        <AssociationConnector Association="cs_erpModel.FK__REGISTRO___CIDAD__06CD04F7" ManuallyRouted="false" />
+        <AssociationConnector Association="cs_erpModel.FK__USUARIO__CIDADE___03F0984C" ManuallyRouted="false" />
+        <AssociationConnector Association="cs_erpModel.FK__CLIENTES__SUBGRU__778AC167" ManuallyRouted="false" />
+        <AssociationConnector Association="cs_erpModel.FK__ORCAMENTO__CLIEN__123EB7A3" ManuallyRouted="false" />
+        <AssociationConnector Association="cs_erpModel.FK__ORCAMENTO__CLIEN__1AD3FDA4" ManuallyRouted="false" />
+        <AssociationConnector Association="cs_erpModel.FK__COMPRA__ORCAMENT__31B762FC" ManuallyRouted="false" />
+        <AssociationConnector Association="cs_erpModel.FK__COMPRA__ORCAMENT__32AB8735" ManuallyRouted="false" />
+        <AssociationConnector Association="cs_erpModel.FK__FATURAMEN__COMPR__41EDCAC5" ManuallyRouted="false" />
+        <AssociationConnector Association="cs_erpModel.FK__FATURAMEN__CONDI__395884C4" ManuallyRouted="false" />
+        <AssociationConnector Association="cs_erpModel.FK__FATURAMEN__CONDI__40F9A68C" ManuallyRouted="false" />
+        <AssociationConnector Association="cs_erpModel.FK__ESPECIEPA__ESPEC__3D2915A8" ManuallyRouted="false" />
+        <AssociationConnector Association="cs_erpModel.FK__FATURAMEN__ESPEC__45BE5BA9" ManuallyRouted="false" />
+        <AssociationConnector Association="cs_erpModel.FK__ESPECIEPA__FATUR__3E1D39E1" ManuallyRouted="false" />
+        <AssociationConnector Association="cs_erpModel.FK__ESTADO__PAIS_ID__68487DD7" ManuallyRouted="false" />
+        <AssociationConnector Association="cs_erpModel.FK__FATURAMEN__FATUR__44CA3770" ManuallyRouted="false" />
+        <AssociationConnector Association="cs_erpModel.FK__PARCELAR___FATUR__4B7734FF" ManuallyRouted="false" />
+        <AssociationConnector Association="cs_erpModel.FK__FATURAMEN__VENDA__3A4CA8FD" ManuallyRouted="false" />
+        <AssociationConnector Association="cs_erpModel.FK__PARCELAS___FATUR__489AC854" ManuallyRouted="false" />
+        <AssociationConnector Association="cs_erpModel.FK__FORNECEDO__FORNE__25518C17" ManuallyRouted="false" />
+        <AssociationConnector Association="cs_erpModel.FK__ORCAMENTO__FORNE__17036CC0" ManuallyRouted="false" />
+        <AssociationConnector Association="cs_erpModel.FK__FORNECEDO__PRODU__2645B050" ManuallyRouted="false" />
+        <AssociationConnector Association="cs_erpModel.FK__USUARIO__FUNCAO___02084FDA" ManuallyRouted="false" />
+        <AssociationConnector Association="cs_erpModel.FK__SUBGRUPO___GRUPO__5FB337D6" ManuallyRouted="false" />
+        <AssociationConnector Association="cs_erpModel.FK__SUBGRUPO___GRUPO__628FA481" ManuallyRouted="false" />
+        <AssociationConnector Association="cs_erpModel.FK__MARCA_ORC__MARCA__2CF2ADDF" ManuallyRouted="false" />
+        <AssociationConnector Association="cs_erpModel.FK__MODELO__MARCA_ID__70DDC3D8" ManuallyRouted="false" />
+        <AssociationConnector Association="cs_erpModel.FK__MARCA_ORC__ORCAM__2DE6D218" ManuallyRouted="false" />
+        <AssociationConnector Association="cs_erpModel.FK__MARCA_ORC__SERVI__2EDAF651" ManuallyRouted="false" />
+        <AssociationConnector Association="cs_erpModel.FK__ORCAMENTO__USUAR__160F4887" ManuallyRouted="false" />
+        <AssociationConnector Association="cs_erpModel.FK__PRODUTO_O__ORCAM__2180FB33" ManuallyRouted="false" />
+        <AssociationConnector Association="cs_erpModel.FK__ORCAMENTO__USUAR__19DFD96B" ManuallyRouted="false" />
+        <AssociationConnector Association="cs_erpModel.FK__VENDA__ORCAMENTO__367C1819" ManuallyRouted="false" />
+        <AssociationConnector Association="cs_erpModel.FK__ORCAMENTO__USUAR__1332DBDC" ManuallyRouted="false" />
+        <AssociationConnector Association="cs_erpModel.FK__PRODUTO_O__ORCAM__29221CFB" ManuallyRouted="false" />
+        <AssociationConnector Association="cs_erpModel.FK__VENDA__ORCAMENTO__3587F3E0" ManuallyRouted="false" />
+        <AssociationConnector Association="cs_erpModel.FK__PONTO__REGISTRO___1DB06A4F" ManuallyRouted="false" />
+        <AssociationConnector Association="cs_erpModel.FK__PONTO__USUARIO_I__1EA48E88" ManuallyRouted="false" />
+        <AssociationConnector Association="cs_erpModel.FK__PRODUTO_O__PRODU__2A164134" ManuallyRouted="false" />
+        <AssociationConnector Association="cs_erpModel.FK__PRODUTO_O__PRODU__22751F6C" ManuallyRouted="false" />
+        <AssociationConnector Association="cs_erpModel.FK__PRODUTOS__SUBGRU__7C4F7684" ManuallyRouted="false" />
+        <AssociationConnector Association="cs_erpModel.FK__PRODUTOS__TIPO_U__7B5B524B" ManuallyRouted="false" />
+        <AssociationConnector Association="cs_erpModel.FK__PRODUTOS__TRIBUT__7D439ABD" ManuallyRouted="false" />
+        <AssociationConnector Association="cs_erpModel.FK__TRIBUTACA__TRIBU__656C112C" ManuallyRouted="false" />
+        <AssociationConnector Association="cs_erpModel.FORMARECEBIMENTO_FATURAMENTO" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

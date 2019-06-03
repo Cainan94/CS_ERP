@@ -31,8 +31,17 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -41,7 +50,203 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="A_PAGAR.cs">
+      <DependentUpon>ModelDataBase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="A_RECEBER.cs">
+      <DependentUpon>ModelDataBase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BANCO.cs">
+      <DependentUpon>ModelDataBase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CAIXA.cs">
+      <DependentUpon>ModelDataBase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CAIXA_CLOSE.cs">
+      <DependentUpon>ModelDataBase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CAIXA_OPEN.cs">
+      <DependentUpon>ModelDataBase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CFOP.cs">
+      <DependentUpon>ModelDataBase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CIDADE.cs">
+      <DependentUpon>ModelDataBase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CLIENTES.cs">
+      <DependentUpon>ModelDataBase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="COMPRA.cs">
+      <DependentUpon>ModelDataBase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CONDICAO_PAGAMENTO.cs">
+      <DependentUpon>ModelDataBase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ENTRADA_CAIXA.cs">
+      <DependentUpon>ModelDataBase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ESPECIEPAGAMENTO_FATURAMENTOVENDA.cs">
+      <DependentUpon>ModelDataBase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ESPECIE_PAGAMENTO.cs">
+      <DependentUpon>ModelDataBase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ESTADO.cs">
+      <DependentUpon>ModelDataBase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FATURAMENTO_COMPRA.cs">
+      <DependentUpon>ModelDataBase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FATURAMENTO_COMPRA_has_ESPECIE_PAGAMENTO.cs">
+      <DependentUpon>ModelDataBase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FATURAMENTO_VENDA.cs">
+      <DependentUpon>ModelDataBase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FORMA_RECEBIMENTO_PAGAMENTO.cs">
+      <DependentUpon>ModelDataBase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FORNECEDOR.cs">
+      <DependentUpon>ModelDataBase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FORNECEDOR_PRODUTOS.cs">
+      <DependentUpon>ModelDataBase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FUNCAO.cs">
+      <DependentUpon>ModelDataBase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GRUPO.cs">
+      <DependentUpon>ModelDataBase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GRUPO_PRODUTO.cs">
+      <DependentUpon>ModelDataBase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MARCA.cs">
+      <DependentUpon>ModelDataBase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MARCA_ORCAMENTOSERVICO.cs">
+      <DependentUpon>ModelDataBase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ModelDataBase.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelDataBase.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ModelDataBase.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelDataBase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ModelDataBase.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelDataBase.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="MODELO.cs">
+      <DependentUpon>ModelDataBase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ORCAMENTO_COMPRA.cs">
+      <DependentUpon>ModelDataBase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ORCAMENTO_SERVICO.cs">
+      <DependentUpon>ModelDataBase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ORCAMENTO_VENDA.cs">
+      <DependentUpon>ModelDataBase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PAGO.cs">
+      <DependentUpon>ModelDataBase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PAIS.cs">
+      <DependentUpon>ModelDataBase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PARCELAR_COMPRA.cs">
+      <DependentUpon>ModelDataBase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PARCELAS_VENDAS.cs">
+      <DependentUpon>ModelDataBase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PONTO.cs">
+      <DependentUpon>ModelDataBase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PRODUTOS.cs">
+      <DependentUpon>ModelDataBase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PRODUTO_ORCAMENTOVENDA.cs">
+      <DependentUpon>ModelDataBase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PRODUTO_ORCCAMENTOCOMPRA.cs">
+      <DependentUpon>ModelDataBase.tt</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RECEBIDO.cs">
+      <DependentUpon>ModelDataBase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="REGISTRO.cs">
+      <DependentUpon>ModelDataBase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="REGISTRO_EMPRESA.cs">
+      <DependentUpon>ModelDataBase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SAIDA_CAIXA.cs">
+      <DependentUpon>ModelDataBase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SANGRIA.cs">
+      <DependentUpon>ModelDataBase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SERVICOS.cs">
+      <DependentUpon>ModelDataBase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SUBGRUPO_CLIENTE.cs">
+      <DependentUpon>ModelDataBase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SUBGRUPO_PRODUTO.cs">
+      <DependentUpon>ModelDataBase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TIPO_UNIDADE_PRODUTO.cs">
+      <DependentUpon>ModelDataBase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TRIBUTACAO_PRODUTO.cs">
+      <DependentUpon>ModelDataBase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TRIBUTOS_PRODUTO.cs">
+      <DependentUpon>ModelDataBase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="USUARIO.cs">
+      <DependentUpon>ModelDataBase.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VENDA.cs">
+      <DependentUpon>ModelDataBase.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EntityDeploy Include="ModelDataBase.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>ModelDataBase.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config" />
+    <None Include="ModelDataBase.edmx.diagram">
+      <DependentUpon>ModelDataBase.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ModelDataBase.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>ModelDataBase.Context.cs</LastGenOutput>
+      <DependentUpon>ModelDataBase.edmx</DependentUpon>
+    </Content>
+    <Content Include="ModelDataBase.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ModelDataBase.edmx</DependentUpon>
+      <LastGenOutput>ModelDataBase.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
