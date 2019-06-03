@@ -1,0 +1,6 @@
+D:\Desenvolvimento\Workspace VisualStudio\CS_ERP\UTILS\bin\Debug\UTILS.dll
+D:\Desenvolvimento\Workspace VisualStudio\CS_ERP\UTILS\bin\Debug\UTILS.pdb
+D:\Desenvolvimento\Workspace VisualStudio\CS_ERP\UTILS\obj\Debug\UTILS.csprojAssemblyReference.cache
+D:\Desenvolvimento\Workspace VisualStudio\CS_ERP\UTILS\obj\Debug\UTILS.csproj.CoreCompileInputs.cache
+D:\Desenvolvimento\Workspace VisualStudio\CS_ERP\UTILS\obj\Debug\UTILS.dll
+D:\Desenvolvimento\Workspace VisualStudio\CS_ERP\UTILS\obj\Debug\UTILS.pdb

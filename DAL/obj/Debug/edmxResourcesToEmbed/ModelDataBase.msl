@@ -1,0 +1,684 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="cs_erpModelStoreContainer" CdmEntityContainer="cs_erpEntities">
+    <EntitySetMapping Name="A_PAGAR">
+      <EntityTypeMapping TypeName="cs_erpModel.A_PAGAR">
+        <MappingFragment StoreEntitySet="A_PAGAR">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="PARCELA_ID" ColumnName="PARCELA_ID" />
+          <ScalarProperty Name="VALOR_TOTAL" ColumnName="VALOR_TOTAL" />
+          <ScalarProperty Name="VALOR_PAGO" ColumnName="VALOR_PAGO" />
+          <ScalarProperty Name="VALOR_RESTANTE" ColumnName="VALOR_RESTANTE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="A_RECEBER">
+      <EntityTypeMapping TypeName="cs_erpModel.A_RECEBER">
+        <MappingFragment StoreEntitySet="A_RECEBER">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="PARCELA_ID" ColumnName="PARCELA_ID" />
+          <ScalarProperty Name="VALOR_TOTAL" ColumnName="VALOR_TOTAL" />
+          <ScalarProperty Name="VALOR_PAGO" ColumnName="VALOR_PAGO" />
+          <ScalarProperty Name="VALOR_RESTANTE" ColumnName="VALOR_RESTANTE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BANCO">
+      <EntityTypeMapping TypeName="cs_erpModel.BANCO">
+        <MappingFragment StoreEntitySet="BANCO">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NOME" ColumnName="NOME" />
+          <ScalarProperty Name="AGENCIA" ColumnName="AGENCIA" />
+          <ScalarProperty Name="NUMERO_CONTA" ColumnName="NUMERO_CONTA" />
+          <ScalarProperty Name="DIGITO_CONTA" ColumnName="DIGITO_CONTA" />
+          <ScalarProperty Name="BENEFICIARIO" ColumnName="BENEFICIARIO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAIXA">
+      <EntityTypeMapping TypeName="cs_erpModel.CAIXA">
+        <MappingFragment StoreEntitySet="CAIXA">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CAIXA_CLOSE_ID" ColumnName="CAIXA_CLOSE_ID" />
+          <ScalarProperty Name="CAIXA_OPEN_ID" ColumnName="CAIXA_OPEN_ID" />
+          <ScalarProperty Name="NOME" ColumnName="NOME" />
+          <ScalarProperty Name="SALDO" ColumnName="SALDO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAIXA_CLOSE">
+      <EntityTypeMapping TypeName="cs_erpModel.CAIXA_CLOSE">
+        <MappingFragment StoreEntitySet="CAIXA_CLOSE">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="DATA_FECHAMENTO" ColumnName="DATA_FECHAMENTO" />
+          <ScalarProperty Name="HORA" ColumnName="HORA" />
+          <ScalarProperty Name="VALOR" ColumnName="VALOR" />
+          <ScalarProperty Name="RESPONSAVEL_FECHAMENTO" ColumnName="RESPONSAVEL_FECHAMENTO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAIXA_OPEN">
+      <EntityTypeMapping TypeName="cs_erpModel.CAIXA_OPEN">
+        <MappingFragment StoreEntitySet="CAIXA_OPEN">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="DATA_ABERTURA" ColumnName="DATA_ABERTURA" />
+          <ScalarProperty Name="HORA" ColumnName="HORA" />
+          <ScalarProperty Name="VALOR" ColumnName="VALOR" />
+          <ScalarProperty Name="RESPONSAVEL_ABERTURA" ColumnName="RESPONSAVEL_ABERTURA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CFOP">
+      <EntityTypeMapping TypeName="cs_erpModel.CFOP">
+        <MappingFragment StoreEntitySet="CFOP">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NUMERO_CFOP" ColumnName="NUMERO_CFOP" />
+          <ScalarProperty Name="DESCRICAO" ColumnName="DESCRICAO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CIDADE">
+      <EntityTypeMapping TypeName="cs_erpModel.CIDADE">
+        <MappingFragment StoreEntitySet="CIDADE">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ESTADO_ID" ColumnName="ESTADO_ID" />
+          <ScalarProperty Name="CODIGO" ColumnName="CODIGO" />
+          <ScalarProperty Name="NOME" ColumnName="NOME" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CLIENTES">
+      <EntityTypeMapping TypeName="cs_erpModel.CLIENTES">
+        <MappingFragment StoreEntitySet="CLIENTES">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CIDADE_ID" ColumnName="CIDADE_ID" />
+          <ScalarProperty Name="SUBGRUPO_CLIENTE_ID" ColumnName="SUBGRUPO_CLIENTE_ID" />
+          <ScalarProperty Name="TIPO" ColumnName="TIPO" />
+          <ScalarProperty Name="NOME" ColumnName="NOME" />
+          <ScalarProperty Name="SEXO" ColumnName="SEXO" />
+          <ScalarProperty Name="FOTO" ColumnName="FOTO" />
+          <ScalarProperty Name="DATA_CADASTRO" ColumnName="DATA_CADASTRO" />
+          <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+          <ScalarProperty Name="CONTATO" ColumnName="CONTATO" />
+          <ScalarProperty Name="CEP" ColumnName="CEP" />
+          <ScalarProperty Name="NUMERO" ColumnName="NUMERO" />
+          <ScalarProperty Name="RUA" ColumnName="RUA" />
+          <ScalarProperty Name="BAIRRO" ColumnName="BAIRRO" />
+          <ScalarProperty Name="CPF_CNPJ" ColumnName="CPF_CNPJ" />
+          <ScalarProperty Name="RG_IE" ColumnName="RG_IE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="COMPRA">
+      <EntityTypeMapping TypeName="cs_erpModel.COMPRA">
+        <MappingFragment StoreEntitySet="COMPRA">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ORCAMENTO_SERVICO_ID" ColumnName="ORCAMENTO_SERVICO_ID" />
+          <ScalarProperty Name="ORCAMENTO_COMPRA_ID" ColumnName="ORCAMENTO_COMPRA_ID" />
+          <ScalarProperty Name="DATA_COMPRA" ColumnName="DATA_COMPRA" />
+          <ScalarProperty Name="HORA_COMPRA" ColumnName="HORA_COMPRA" />
+          <ScalarProperty Name="QUANTIDADE_TOTAL" ColumnName="QUANTIDADE_TOTAL" />
+          <ScalarProperty Name="SUB_TOTAL" ColumnName="SUB_TOTAL" />
+          <ScalarProperty Name="DESCONTO_REAIS" ColumnName="DESCONTO_REAIS" />
+          <ScalarProperty Name="DESCONTO_PORCENTO" ColumnName="DESCONTO_PORCENTO" />
+          <ScalarProperty Name="ACRESCIMO_REAIS" ColumnName="ACRESCIMO_REAIS" />
+          <ScalarProperty Name="ACRESCIMO_PORCENTAGEM" ColumnName="ACRESCIMO_PORCENTAGEM" />
+          <ScalarProperty Name="TOTAL" ColumnName="TOTAL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CONDICAO_PAGAMENTO">
+      <EntityTypeMapping TypeName="cs_erpModel.CONDICAO_PAGAMENTO">
+        <MappingFragment StoreEntitySet="CONDICAO_PAGAMENTO">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NUMERO_PARCELAS" ColumnName="NUMERO_PARCELAS" />
+          <ScalarProperty Name="NOME" ColumnName="NOME" />
+          <ScalarProperty Name="DESCRICAO" ColumnName="DESCRICAO" />
+          <ScalarProperty Name="JUROS" ColumnName="JUROS" />
+          <ScalarProperty Name="DESCONTO" ColumnName="DESCONTO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ENTRADA_CAIXA">
+      <EntityTypeMapping TypeName="cs_erpModel.ENTRADA_CAIXA">
+        <MappingFragment StoreEntitySet="ENTRADA_CAIXA">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CAIXA_ID" ColumnName="CAIXA_ID" />
+          <ScalarProperty Name="DATA_ENTRADA" ColumnName="DATA_ENTRADA" />
+          <ScalarProperty Name="HORA" ColumnName="HORA" />
+          <ScalarProperty Name="VALOR" ColumnName="VALOR" />
+          <ScalarProperty Name="NUMERO_DOCUMENTO" ColumnName="NUMERO_DOCUMENTO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ESPECIE_PAGAMENTO">
+      <EntityTypeMapping TypeName="cs_erpModel.ESPECIE_PAGAMENTO">
+        <MappingFragment StoreEntitySet="ESPECIE_PAGAMENTO">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NOME" ColumnName="NOME" />
+          <ScalarProperty Name="DESCRICAO" ColumnName="DESCRICAO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ESPECIEPAGAMENTO_FATURAMENTOVENDA">
+      <EntityTypeMapping TypeName="cs_erpModel.ESPECIEPAGAMENTO_FATURAMENTOVENDA">
+        <MappingFragment StoreEntitySet="ESPECIEPAGAMENTO_FATURAMENTOVENDA">
+          <ScalarProperty Name="ESPECIE_PAGAMENTO_ID" ColumnName="ESPECIE_PAGAMENTO_ID" />
+          <ScalarProperty Name="FATURAMENTO_VENDA_ID" ColumnName="FATURAMENTO_VENDA_ID" />
+          <ScalarProperty Name="VALOR" ColumnName="VALOR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ESTADO">
+      <EntityTypeMapping TypeName="cs_erpModel.ESTADO">
+        <MappingFragment StoreEntitySet="ESTADO">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="PAIS_ID" ColumnName="PAIS_ID" />
+          <ScalarProperty Name="CODIGO" ColumnName="CODIGO" />
+          <ScalarProperty Name="NOME" ColumnName="NOME" />
+          <ScalarProperty Name="UF" ColumnName="UF" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FATURAMENTO_COMPRA">
+      <EntityTypeMapping TypeName="cs_erpModel.FATURAMENTO_COMPRA">
+        <MappingFragment StoreEntitySet="FATURAMENTO_COMPRA">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="COMPRA_ID" ColumnName="COMPRA_ID" />
+          <ScalarProperty Name="CONDICAO_PAGAMENTO_ID" ColumnName="CONDICAO_PAGAMENTO_ID" />
+          <ScalarProperty Name="ACRESCIMO" ColumnName="ACRESCIMO" />
+          <ScalarProperty Name="DESCONTO" ColumnName="DESCONTO" />
+          <ScalarProperty Name="SEGURO" ColumnName="SEGURO" />
+          <ScalarProperty Name="FRETE" ColumnName="FRETE" />
+          <ScalarProperty Name="OUTROS" ColumnName="OUTROS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FATURAMENTO_COMPRA_has_ESPECIE_PAGAMENTO">
+      <EntityTypeMapping TypeName="cs_erpModel.FATURAMENTO_COMPRA_has_ESPECIE_PAGAMENTO">
+        <MappingFragment StoreEntitySet="FATURAMENTO_COMPRA_has_ESPECIE_PAGAMENTO">
+          <ScalarProperty Name="FATURAMENTO_COMPRA_ID" ColumnName="FATURAMENTO_COMPRA_ID" />
+          <ScalarProperty Name="ESPECIE_PAGAMENTO_ID" ColumnName="ESPECIE_PAGAMENTO_ID" />
+          <ScalarProperty Name="VALOR" ColumnName="VALOR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FATURAMENTO_VENDA">
+      <EntityTypeMapping TypeName="cs_erpModel.FATURAMENTO_VENDA">
+        <MappingFragment StoreEntitySet="FATURAMENTO_VENDA">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="VENDA_ID" ColumnName="VENDA_ID" />
+          <ScalarProperty Name="CONDICAO_PAGAMENTO_ID" ColumnName="CONDICAO_PAGAMENTO_ID" />
+          <ScalarProperty Name="ACRESCIMO" ColumnName="ACRESCIMO" />
+          <ScalarProperty Name="DESCONTO" ColumnName="DESCONTO" />
+          <ScalarProperty Name="SEGURO" ColumnName="SEGURO" />
+          <ScalarProperty Name="FRETE" ColumnName="FRETE" />
+          <ScalarProperty Name="OUTROS" ColumnName="OUTROS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FORMA_RECEBIMENTO_PAGAMENTO">
+      <EntityTypeMapping TypeName="cs_erpModel.FORMA_RECEBIMENTO_PAGAMENTO">
+        <MappingFragment StoreEntitySet="FORMA_RECEBIMENTO_PAGAMENTO">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NOME" ColumnName="NOME" />
+          <ScalarProperty Name="DESCRICAO" ColumnName="DESCRICAO" />
+          <ScalarProperty Name="CONTATO" ColumnName="CONTATO" />
+          <ScalarProperty Name="AGENCIA" ColumnName="AGENCIA" />
+          <ScalarProperty Name="CODIGO_BANCO" ColumnName="CODIGO_BANCO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FORNECEDOR">
+      <EntityTypeMapping TypeName="cs_erpModel.FORNECEDOR">
+        <MappingFragment StoreEntitySet="FORNECEDOR">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CIDADE_ID" ColumnName="CIDADE_ID" />
+          <ScalarProperty Name="FANTASIA" ColumnName="FANTASIA" />
+          <ScalarProperty Name="CNPJ" ColumnName="CNPJ" />
+          <ScalarProperty Name="IE" ColumnName="IE" />
+          <ScalarProperty Name="IM" ColumnName="IM" />
+          <ScalarProperty Name="RESPONSAVEL" ColumnName="RESPONSAVEL" />
+          <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+          <ScalarProperty Name="CONTATO" ColumnName="CONTATO" />
+          <ScalarProperty Name="CEP" ColumnName="CEP" />
+          <ScalarProperty Name="NUMERO" ColumnName="NUMERO" />
+          <ScalarProperty Name="RUA" ColumnName="RUA" />
+          <ScalarProperty Name="BAIRRO" ColumnName="BAIRRO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FORNECEDOR_PRODUTOS">
+      <EntityTypeMapping TypeName="cs_erpModel.FORNECEDOR_PRODUTOS">
+        <MappingFragment StoreEntitySet="FORNECEDOR_PRODUTOS">
+          <ScalarProperty Name="FORNECEDOR_ID" ColumnName="FORNECEDOR_ID" />
+          <ScalarProperty Name="PRODUTOS_ID" ColumnName="PRODUTOS_ID" />
+          <ScalarProperty Name="DATA_CONTRATO" ColumnName="DATA_CONTRATO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FUNCAO">
+      <EntityTypeMapping TypeName="cs_erpModel.FUNCAO">
+        <MappingFragment StoreEntitySet="FUNCAO">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NOME" ColumnName="NOME" />
+          <ScalarProperty Name="DESCRICAO" ColumnName="DESCRICAO" />
+          <ScalarProperty Name="SALARIO" ColumnName="SALARIO" />
+          <ScalarProperty Name="CARGA_HORARIA" ColumnName="CARGA_HORARIA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GRUPO">
+      <EntityTypeMapping TypeName="cs_erpModel.GRUPO">
+        <MappingFragment StoreEntitySet="GRUPO">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NOME" ColumnName="NOME" />
+          <ScalarProperty Name="DESCRICAO" ColumnName="DESCRICAO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GRUPO_PRODUTO">
+      <EntityTypeMapping TypeName="cs_erpModel.GRUPO_PRODUTO">
+        <MappingFragment StoreEntitySet="GRUPO_PRODUTO">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NOME" ColumnName="NOME" />
+          <ScalarProperty Name="DESCRICAO" ColumnName="DESCRICAO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MARCA">
+      <EntityTypeMapping TypeName="cs_erpModel.MARCA">
+        <MappingFragment StoreEntitySet="MARCA">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NOME" ColumnName="NOME" />
+          <ScalarProperty Name="DESCRICAO" ColumnName="DESCRICAO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MARCA_ORCAMENTOSERVICO">
+      <EntityTypeMapping TypeName="cs_erpModel.MARCA_ORCAMENTOSERVICO">
+        <MappingFragment StoreEntitySet="MARCA_ORCAMENTOSERVICO">
+          <ScalarProperty Name="MARCA_ID" ColumnName="MARCA_ID" />
+          <ScalarProperty Name="ORCAMENTO_SERVICO_ID" ColumnName="ORCAMENTO_SERVICO_ID" />
+          <ScalarProperty Name="SERVICOS_ID" ColumnName="SERVICOS_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MODELO">
+      <EntityTypeMapping TypeName="cs_erpModel.MODELO">
+        <MappingFragment StoreEntitySet="MODELO">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="MARCA_ID" ColumnName="MARCA_ID" />
+          <ScalarProperty Name="NOME" ColumnName="NOME" />
+          <ScalarProperty Name="DESCRICAO" ColumnName="DESCRICAO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ORCAMENTO_COMPRA">
+      <EntityTypeMapping TypeName="cs_erpModel.ORCAMENTO_COMPRA">
+        <MappingFragment StoreEntitySet="ORCAMENTO_COMPRA">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="FORNECEDOR_ID" ColumnName="FORNECEDOR_ID" />
+          <ScalarProperty Name="USUARIO_ID" ColumnName="USUARIO_ID" />
+          <ScalarProperty Name="DATA_ORCAMENTO" ColumnName="DATA_ORCAMENTO" />
+          <ScalarProperty Name="HORA" ColumnName="HORA" />
+          <ScalarProperty Name="QUANTIDADE_TOTAL" ColumnName="QUANTIDADE_TOTAL" />
+          <ScalarProperty Name="SUB_TOTAL" ColumnName="SUB_TOTAL" />
+          <ScalarProperty Name="DESCONTO_REAIS" ColumnName="DESCONTO_REAIS" />
+          <ScalarProperty Name="DESCONTO_PORCENTO" ColumnName="DESCONTO_PORCENTO" />
+          <ScalarProperty Name="ACRESCIMO_REAIS" ColumnName="ACRESCIMO_REAIS" />
+          <ScalarProperty Name="ACRESCIMO_PORCENTO" ColumnName="ACRESCIMO_PORCENTO" />
+          <ScalarProperty Name="TOTAL" ColumnName="TOTAL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ORCAMENTO_SERVICO">
+      <EntityTypeMapping TypeName="cs_erpModel.ORCAMENTO_SERVICO">
+        <MappingFragment StoreEntitySet="ORCAMENTO_SERVICO">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CLIENTES_ID" ColumnName="CLIENTES_ID" />
+          <ScalarProperty Name="USUARIO_ID" ColumnName="USUARIO_ID" />
+          <ScalarProperty Name="DATA_ORCAMENTO" ColumnName="DATA_ORCAMENTO" />
+          <ScalarProperty Name="HORA" ColumnName="HORA" />
+          <ScalarProperty Name="DESCONTO_REAIS" ColumnName="DESCONTO_REAIS" />
+          <ScalarProperty Name="ACRESCIMO_REAIS" ColumnName="ACRESCIMO_REAIS" />
+          <ScalarProperty Name="DESCONTO_PORCENTO" ColumnName="DESCONTO_PORCENTO" />
+          <ScalarProperty Name="ACRESCIMO_PORCENTO" ColumnName="ACRESCIMO_PORCENTO" />
+          <ScalarProperty Name="DESCRICAO_PROBLEMA" ColumnName="DESCRICAO_PROBLEMA" />
+          <ScalarProperty Name="CODIGOBARRA" ColumnName="CODIGOBARRA" />
+          <ScalarProperty Name="PATRIMONIO" ColumnName="PATRIMONIO" />
+          <ScalarProperty Name="NUMEROSERIE" ColumnName="NUMEROSERIE" />
+          <ScalarProperty Name="COR" ColumnName="COR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ORCAMENTO_VENDA">
+      <EntityTypeMapping TypeName="cs_erpModel.ORCAMENTO_VENDA">
+        <MappingFragment StoreEntitySet="ORCAMENTO_VENDA">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="USUARIO_ID" ColumnName="USUARIO_ID" />
+          <ScalarProperty Name="CLIENTES_ID" ColumnName="CLIENTES_ID" />
+          <ScalarProperty Name="DATA_ORCAMENTO" ColumnName="DATA_ORCAMENTO" />
+          <ScalarProperty Name="HORA" ColumnName="HORA" />
+          <ScalarProperty Name="QUANTIDADE_TOTAL" ColumnName="QUANTIDADE_TOTAL" />
+          <ScalarProperty Name="SUB_TOTAL" ColumnName="SUB_TOTAL" />
+          <ScalarProperty Name="DESCONTO_REAIS" ColumnName="DESCONTO_REAIS" />
+          <ScalarProperty Name="DESCONTO_PORCENTO" ColumnName="DESCONTO_PORCENTO" />
+          <ScalarProperty Name="ACRESCIMO_REAIS" ColumnName="ACRESCIMO_REAIS" />
+          <ScalarProperty Name="ACRESCIMO_PORCENTO" ColumnName="ACRESCIMO_PORCENTO" />
+          <ScalarProperty Name="TOTAL" ColumnName="TOTAL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PAGO">
+      <EntityTypeMapping TypeName="cs_erpModel.PAGO">
+        <MappingFragment StoreEntitySet="PAGO">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="A_PAGAR_ID" ColumnName="A_PAGAR_ID" />
+          <ScalarProperty Name="DATA_PAGO" ColumnName="DATA_PAGO" />
+          <ScalarProperty Name="HORA" ColumnName="HORA" />
+          <ScalarProperty Name="NOTA" ColumnName="NOTA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PAIS">
+      <EntityTypeMapping TypeName="cs_erpModel.PAIS">
+        <MappingFragment StoreEntitySet="PAIS">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CODIGO" ColumnName="CODIGO" />
+          <ScalarProperty Name="NOME" ColumnName="NOME" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PARCELAR_COMPRA">
+      <EntityTypeMapping TypeName="cs_erpModel.PARCELAR_COMPRA">
+        <MappingFragment StoreEntitySet="PARCELAR_COMPRA">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="FATURAMENTO_COMPRA_ID" ColumnName="FATURAMENTO_COMPRA_ID" />
+          <ScalarProperty Name="NUMERO" ColumnName="NUMERO" />
+          <ScalarProperty Name="DATA_CRIACAO" ColumnName="DATA_CRIACAO" />
+          <ScalarProperty Name="DATA_VENCIMENTO" ColumnName="DATA_VENCIMENTO" />
+          <ScalarProperty Name="VALOR_PARCELA" ColumnName="VALOR_PARCELA" />
+          <ScalarProperty Name="JUROS_VENCIMENTO" ColumnName="JUROS_VENCIMENTO" />
+          <ScalarProperty Name="DESCONTO" ColumnName="DESCONTO" />
+          <ScalarProperty Name="VALOR_TOTAL" ColumnName="VALOR_TOTAL" />
+          <ScalarProperty Name="VENCIDA" ColumnName="VENCIDA" />
+          <ScalarProperty Name="PAGA" ColumnName="PAGA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PARCELAS_VENDAS">
+      <EntityTypeMapping TypeName="cs_erpModel.PARCELAS_VENDAS">
+        <MappingFragment StoreEntitySet="PARCELAS_VENDAS">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="FATURAMENTO_VENDA_ID" ColumnName="FATURAMENTO_VENDA_ID" />
+          <ScalarProperty Name="NUMERO" ColumnName="NUMERO" />
+          <ScalarProperty Name="DATA_CRIACAO" ColumnName="DATA_CRIACAO" />
+          <ScalarProperty Name="DATA_VENCIMENTO" ColumnName="DATA_VENCIMENTO" />
+          <ScalarProperty Name="VALOR_PARCELA" ColumnName="VALOR_PARCELA" />
+          <ScalarProperty Name="JUROS_VENCIMENTO" ColumnName="JUROS_VENCIMENTO" />
+          <ScalarProperty Name="DESCONTO" ColumnName="DESCONTO" />
+          <ScalarProperty Name="VALOR_TOTAL" ColumnName="VALOR_TOTAL" />
+          <ScalarProperty Name="VENCIDA" ColumnName="VENCIDA" />
+          <ScalarProperty Name="PAGA" ColumnName="PAGA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PONTO">
+      <EntityTypeMapping TypeName="cs_erpModel.PONTO">
+        <MappingFragment StoreEntitySet="PONTO">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="REGISTRO_ID" ColumnName="REGISTRO_ID" />
+          <ScalarProperty Name="USUARIO_ID" ColumnName="USUARIO_ID" />
+          <ScalarProperty Name="DESCRICAO" ColumnName="DESCRICAO" />
+          <ScalarProperty Name="HORA_EXTRA" ColumnName="HORA_EXTRA" />
+          <ScalarProperty Name="HORA_DEFICIT" ColumnName="HORA_DEFICIT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PRODUTO_ORCAMENTOVENDA">
+      <EntityTypeMapping TypeName="cs_erpModel.PRODUTO_ORCAMENTOVENDA">
+        <MappingFragment StoreEntitySet="PRODUTO_ORCAMENTOVENDA">
+          <ScalarProperty Name="ORCAMENTO_VENDA_ID" ColumnName="ORCAMENTO_VENDA_ID" />
+          <ScalarProperty Name="PRODUTOS_ID" ColumnName="PRODUTOS_ID" />
+          <ScalarProperty Name="QUANTIDADE" ColumnName="QUANTIDADE" />
+          <ScalarProperty Name="VALOR_UNIDADE" ColumnName="VALOR_UNIDADE" />
+          <ScalarProperty Name="VALOR_TOTAL" ColumnName="VALOR_TOTAL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PRODUTO_ORCCAMENTOCOMPRA">
+      <EntityTypeMapping TypeName="cs_erpModel.PRODUTO_ORCCAMENTOCOMPRA">
+        <MappingFragment StoreEntitySet="PRODUTO_ORCCAMENTOCOMPRA">
+          <ScalarProperty Name="ORCAMENTO_COMPRA_ID" ColumnName="ORCAMENTO_COMPRA_ID" />
+          <ScalarProperty Name="PRODUTOS_ID" ColumnName="PRODUTOS_ID" />
+          <ScalarProperty Name="QUANTIDADE" ColumnName="QUANTIDADE" />
+          <ScalarProperty Name="VALOR_UNIDADE" ColumnName="VALOR_UNIDADE" />
+          <ScalarProperty Name="VALOR_TOTAL" ColumnName="VALOR_TOTAL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PRODUTOS">
+      <EntityTypeMapping TypeName="cs_erpModel.PRODUTOS">
+        <MappingFragment StoreEntitySet="PRODUTOS">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CFOP_ID" ColumnName="CFOP_ID" />
+          <ScalarProperty Name="TRIBUTACAO_PRODUTO_NCM" ColumnName="TRIBUTACAO_PRODUTO_NCM" />
+          <ScalarProperty Name="SUBGRUPO_PRODUTO_ID" ColumnName="SUBGRUPO_PRODUTO_ID" />
+          <ScalarProperty Name="TIPO_UNIDADE_PRODUTO_ID" ColumnName="TIPO_UNIDADE_PRODUTO_ID" />
+          <ScalarProperty Name="IMAGEM" ColumnName="IMAGEM" />
+          <ScalarProperty Name="GTIN" ColumnName="GTIN" />
+          <ScalarProperty Name="NUMERO_SERIE" ColumnName="NUMERO_SERIE" />
+          <ScalarProperty Name="NOME" ColumnName="NOME" />
+          <ScalarProperty Name="DESCRICAO" ColumnName="DESCRICAO" />
+          <ScalarProperty Name="QUANTIDADE_ESTOQUE" ColumnName="QUANTIDADE_ESTOQUE" />
+          <ScalarProperty Name="ESTOQUE_MINIMO" ColumnName="ESTOQUE_MINIMO" />
+          <ScalarProperty Name="ESTOQUE_MAXIMO" ColumnName="ESTOQUE_MAXIMO" />
+          <ScalarProperty Name="VALOR_VENDA" ColumnName="VALOR_VENDA" />
+          <ScalarProperty Name="VALOR_VENDA_MAX" ColumnName="VALOR_VENDA_MAX" />
+          <ScalarProperty Name="VALOR_VENDA_MIN" ColumnName="VALOR_VENDA_MIN" />
+          <ScalarProperty Name="VALOR_COMPRA" ColumnName="VALOR_COMPRA" />
+          <ScalarProperty Name="VALOR_MEDIO_LUCRO" ColumnName="VALOR_MEDIO_LUCRO" />
+          <ScalarProperty Name="PESO_BRUTO" ColumnName="PESO_BRUTO" />
+          <ScalarProperty Name="PESO_LIQUIDO" ColumnName="PESO_LIQUIDO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RECEBIDO">
+      <EntityTypeMapping TypeName="cs_erpModel.RECEBIDO">
+        <MappingFragment StoreEntitySet="RECEBIDO">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="A_RECEBER_ID" ColumnName="A_RECEBER_ID" />
+          <ScalarProperty Name="DATA_RECEBIMENTO" ColumnName="DATA_RECEBIMENTO" />
+          <ScalarProperty Name="HORA" ColumnName="HORA" />
+          <ScalarProperty Name="NOTA" ColumnName="NOTA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="REGISTRO">
+      <EntityTypeMapping TypeName="cs_erpModel.REGISTRO">
+        <MappingFragment StoreEntitySet="REGISTRO">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="USUARIO_NOME" ColumnName="USUARIO_NOME" />
+          <ScalarProperty Name="DESCRICAO" ColumnName="DESCRICAO" />
+          <ScalarProperty Name="DATE" ColumnName="DATE" />
+          <ScalarProperty Name="HORA_ENTRADA" ColumnName="HORA_ENTRADA" />
+          <ScalarProperty Name="HORA_SAIDA" ColumnName="HORA_SAIDA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="REGISTRO_EMPRESA">
+      <EntityTypeMapping TypeName="cs_erpModel.REGISTRO_EMPRESA">
+        <MappingFragment StoreEntitySet="REGISTRO_EMPRESA">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CIDADE_ID" ColumnName="CIDADE_ID" />
+          <ScalarProperty Name="FANTASIA" ColumnName="FANTASIA" />
+          <ScalarProperty Name="RAZAO" ColumnName="RAZAO" />
+          <ScalarProperty Name="CNPJ" ColumnName="CNPJ" />
+          <ScalarProperty Name="IE" ColumnName="IE" />
+          <ScalarProperty Name="BAIRRO" ColumnName="BAIRRO" />
+          <ScalarProperty Name="RUA" ColumnName="RUA" />
+          <ScalarProperty Name="NUMERO" ColumnName="NUMERO" />
+          <ScalarProperty Name="CONTATO" ColumnName="CONTATO" />
+          <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+          <ScalarProperty Name="MAC" ColumnName="MAC" />
+          <ScalarProperty Name="COD_HD" ColumnName="COD_HD" />
+          <ScalarProperty Name="SERIAL" ColumnName="SERIAL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SAIDA_CAIXA">
+      <EntityTypeMapping TypeName="cs_erpModel.SAIDA_CAIXA">
+        <MappingFragment StoreEntitySet="SAIDA_CAIXA">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CAIXA_ID" ColumnName="CAIXA_ID" />
+          <ScalarProperty Name="DATA_SAIDA" ColumnName="DATA_SAIDA" />
+          <ScalarProperty Name="HORA" ColumnName="HORA" />
+          <ScalarProperty Name="VALOR" ColumnName="VALOR" />
+          <ScalarProperty Name="NUMERO_DOCUMENTO" ColumnName="NUMERO_DOCUMENTO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SANGRIA">
+      <EntityTypeMapping TypeName="cs_erpModel.SANGRIA">
+        <MappingFragment StoreEntitySet="SANGRIA">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CAIXA_ID" ColumnName="CAIXA_ID" />
+          <ScalarProperty Name="DATA_SANGRIA" ColumnName="DATA_SANGRIA" />
+          <ScalarProperty Name="HORA" ColumnName="HORA" />
+          <ScalarProperty Name="RESPONSAVEL_SANGRIA" ColumnName="RESPONSAVEL_SANGRIA" />
+          <ScalarProperty Name="VALOR" ColumnName="VALOR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SERVICOS">
+      <EntityTypeMapping TypeName="cs_erpModel.SERVICOS">
+        <MappingFragment StoreEntitySet="SERVICOS">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NOME" ColumnName="NOME" />
+          <ScalarProperty Name="DESCRICAO" ColumnName="DESCRICAO" />
+          <ScalarProperty Name="VALOR" ColumnName="VALOR" />
+          <ScalarProperty Name="ALIQUOTA_ISS" ColumnName="ALIQUOTA_ISS" />
+          <ScalarProperty Name="PRECO_SUGERIDO" ColumnName="PRECO_SUGERIDO" />
+          <ScalarProperty Name="PRECO_MINIMO" ColumnName="PRECO_MINIMO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SUBGRUPO_CLIENTE">
+      <EntityTypeMapping TypeName="cs_erpModel.SUBGRUPO_CLIENTE">
+        <MappingFragment StoreEntitySet="SUBGRUPO_CLIENTE">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="GRUPO_ID" ColumnName="GRUPO_ID" />
+          <ScalarProperty Name="NOME" ColumnName="NOME" />
+          <ScalarProperty Name="DESCRICAO" ColumnName="DESCRICAO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SUBGRUPO_PRODUTO">
+      <EntityTypeMapping TypeName="cs_erpModel.SUBGRUPO_PRODUTO">
+        <MappingFragment StoreEntitySet="SUBGRUPO_PRODUTO">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="GRUPO_PRODUTO_ID" ColumnName="GRUPO_PRODUTO_ID" />
+          <ScalarProperty Name="NOME" ColumnName="NOME" />
+          <ScalarProperty Name="DESCRICAO" ColumnName="DESCRICAO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TIPO_UNIDADE_PRODUTO">
+      <EntityTypeMapping TypeName="cs_erpModel.TIPO_UNIDADE_PRODUTO">
+        <MappingFragment StoreEntitySet="TIPO_UNIDADE_PRODUTO">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NOME" ColumnName="NOME" />
+          <ScalarProperty Name="DESCRICAO" ColumnName="DESCRICAO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TRIBUTACAO_PRODUTO">
+      <EntityTypeMapping TypeName="cs_erpModel.TRIBUTACAO_PRODUTO">
+        <MappingFragment StoreEntitySet="TRIBUTACAO_PRODUTO">
+          <ScalarProperty Name="NCM" ColumnName="NCM" />
+          <ScalarProperty Name="TRIBUTOS_PRODUTO_ID" ColumnName="TRIBUTOS_PRODUTO_ID" />
+          <ScalarProperty Name="DESCRICAO" ColumnName="DESCRICAO" />
+          <ScalarProperty Name="CEST" ColumnName="CEST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TRIBUTOS_PRODUTO">
+      <EntityTypeMapping TypeName="cs_erpModel.TRIBUTOS_PRODUTO">
+        <MappingFragment StoreEntitySet="TRIBUTOS_PRODUTO">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ICMS_VENDA" ColumnName="ICMS_VENDA" />
+          <ScalarProperty Name="CFOP_ENTRADA" ColumnName="CFOP_ENTRADA" />
+          <ScalarProperty Name="CFOP_SAIDA" ColumnName="CFOP_SAIDA" />
+          <ScalarProperty Name="CST_IPI_ENTRADA" ColumnName="CST_IPI_ENTRADA" />
+          <ScalarProperty Name="CST_IPI_SAIDA" ColumnName="CST_IPI_SAIDA" />
+          <ScalarProperty Name="CST_PIS_ENTRADA" ColumnName="CST_PIS_ENTRADA" />
+          <ScalarProperty Name="CST_PIS_SAIDA" ColumnName="CST_PIS_SAIDA" />
+          <ScalarProperty Name="CST_COFINS_ENTRADA" ColumnName="CST_COFINS_ENTRADA" />
+          <ScalarProperty Name="CST_COFINS_SAIDA" ColumnName="CST_COFINS_SAIDA" />
+          <ScalarProperty Name="IPI_ENTRADA_PORCENTO" ColumnName="IPI_ENTRADA_PORCENTO" />
+          <ScalarProperty Name="IPI_SAIDA_PORCENTO" ColumnName="IPI_SAIDA_PORCENTO" />
+          <ScalarProperty Name="PIS_ENTRADA_PORCENTO" ColumnName="PIS_ENTRADA_PORCENTO" />
+          <ScalarProperty Name="PIS_SAIDA_PORCENTO" ColumnName="PIS_SAIDA_PORCENTO" />
+          <ScalarProperty Name="COFINS_ENTRADA_PORCENTO" ColumnName="COFINS_ENTRADA_PORCENTO" />
+          <ScalarProperty Name="COFINS_SAIDA_PORCENTO" ColumnName="COFINS_SAIDA_PORCENTO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="USUARIO">
+      <EntityTypeMapping TypeName="cs_erpModel.USUARIO">
+        <MappingFragment StoreEntitySet="USUARIO">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CIDADE_ID" ColumnName="CIDADE_ID" />
+          <ScalarProperty Name="CAIXA_ID" ColumnName="CAIXA_ID" />
+          <ScalarProperty Name="FUNCAO_ID" ColumnName="FUNCAO_ID" />
+          <ScalarProperty Name="BANCO_ID" ColumnName="BANCO_ID" />
+          <ScalarProperty Name="LOGIN" ColumnName="LOGIN" />
+          <ScalarProperty Name="SENHA" ColumnName="SENHA" />
+          <ScalarProperty Name="DATA_CADASTRO" ColumnName="DATA_CADASTRO" />
+          <ScalarProperty Name="ADMINISTRADOR" ColumnName="ADMINISTRADOR" />
+          <ScalarProperty Name="FOTO" ColumnName="FOTO" />
+          <ScalarProperty Name="NOME" ColumnName="NOME" />
+          <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+          <ScalarProperty Name="CONTATO" ColumnName="CONTATO" />
+          <ScalarProperty Name="CEP" ColumnName="CEP" />
+          <ScalarProperty Name="NUMERO" ColumnName="NUMERO" />
+          <ScalarProperty Name="RUA" ColumnName="RUA" />
+          <ScalarProperty Name="BAIRRO" ColumnName="BAIRRO" />
+          <ScalarProperty Name="CPF" ColumnName="CPF" />
+          <ScalarProperty Name="RG" ColumnName="RG" />
+          <ScalarProperty Name="CARTEIRA_TRABALHO" ColumnName="CARTEIRA_TRABALHO" />
+          <ScalarProperty Name="PIS" ColumnName="PIS" />
+          <ScalarProperty Name="EXAME_ADMISSAO" ColumnName="EXAME_ADMISSAO" />
+          <ScalarProperty Name="EXAME_DEMISSAO" ColumnName="EXAME_DEMISSAO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VENDA">
+      <EntityTypeMapping TypeName="cs_erpModel.VENDA">
+        <MappingFragment StoreEntitySet="VENDA">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ORCAMENTO_SERVICO_ID" ColumnName="ORCAMENTO_SERVICO_ID" />
+          <ScalarProperty Name="ORCAMENTO_VENDA_ID" ColumnName="ORCAMENTO_VENDA_ID" />
+          <ScalarProperty Name="DATA_VENDA" ColumnName="DATA_VENDA" />
+          <ScalarProperty Name="HORA" ColumnName="HORA" />
+          <ScalarProperty Name="QUATIDADE_TOTAL" ColumnName="QUATIDADE_TOTAL" />
+          <ScalarProperty Name="SUB_TOTAL" ColumnName="SUB_TOTAL" />
+          <ScalarProperty Name="DESCONTO_REAIS" ColumnName="DESCONTO_REAIS" />
+          <ScalarProperty Name="ACRESCIMO_REAIS" ColumnName="ACRESCIMO_REAIS" />
+          <ScalarProperty Name="DESCONTO_PORCENTO" ColumnName="DESCONTO_PORCENTO" />
+          <ScalarProperty Name="ACRESCIMO_PORCENTO" ColumnName="ACRESCIMO_PORCENTO" />
+          <ScalarProperty Name="TOTAL" ColumnName="TOTAL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="FORMARECEBIMENTO_FATURAMENTO" TypeName="cs_erpModel.FORMARECEBIMENTO_FATURAMENTO" StoreEntitySet="FORMARECEBIMENTO_FATURAMENTO">
+      <EndProperty Name="FATURAMENTO_VENDA">
+        <ScalarProperty Name="ID" ColumnName="FATURAMENTO_VENDA_ID" />
+      </EndProperty>
+      <EndProperty Name="FORMA_RECEBIMENTO_PAGAMENTO">
+        <ScalarProperty Name="ID" ColumnName="FORMA_RECEBIMENTO_PAGAMENTO_ID" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

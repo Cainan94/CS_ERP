@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS_ERP", "CS_ERP\CS_ERP.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{1457486F-9848-409B-85F9-DC5C329074F0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VIEWS", "VIEWS\VIEWS.csproj", "{84D35F58-9914-4CB0-9361-B8CA83837358}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UTILS", "UTILS\UTILS.csproj", "{CDE26E78-C205-4DC6-88AA-65AEC89C1061}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{1457486F-9848-409B-85F9-DC5C329074F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1457486F-9848-409B-85F9-DC5C329074F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1457486F-9848-409B-85F9-DC5C329074F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84D35F58-9914-4CB0-9361-B8CA83837358}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84D35F58-9914-4CB0-9361-B8CA83837358}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84D35F58-9914-4CB0-9361-B8CA83837358}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84D35F58-9914-4CB0-9361-B8CA83837358}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDE26E78-C205-4DC6-88AA-65AEC89C1061}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDE26E78-C205-4DC6-88AA-65AEC89C1061}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDE26E78-C205-4DC6-88AA-65AEC89C1061}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDE26E78-C205-4DC6-88AA-65AEC89C1061}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

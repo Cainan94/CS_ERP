@@ -1,0 +1,16 @@
+D:\Desenvolvimento\Workspace VisualStudio\CS_ERP\VIEWS\bin\Debug\VIEWS.dll
+D:\Desenvolvimento\Workspace VisualStudio\CS_ERP\VIEWS\bin\Debug\VIEWS.pdb
+D:\Desenvolvimento\Workspace VisualStudio\CS_ERP\VIEWS\obj\Debug\VIEWS.csprojAssemblyReference.cache
+D:\Desenvolvimento\Workspace VisualStudio\CS_ERP\VIEWS\obj\Debug\VIEWS.Frm_Login.resources
+D:\Desenvolvimento\Workspace VisualStudio\CS_ERP\VIEWS\obj\Debug\VIEWS.csproj.GenerateResource.cache
+D:\Desenvolvimento\Workspace VisualStudio\CS_ERP\VIEWS\obj\Debug\VIEWS.csproj.CoreCompileInputs.cache
+D:\Desenvolvimento\Workspace VisualStudio\CS_ERP\VIEWS\obj\Debug\VIEWS.dll
+D:\Desenvolvimento\Workspace VisualStudio\CS_ERP\VIEWS\obj\Debug\VIEWS.pdb
+D:\Desenvolvimento\Workspace VisualStudio\CS_ERP\VIEWS\bin\Debug\DAL.dll
+D:\Desenvolvimento\Workspace VisualStudio\CS_ERP\VIEWS\bin\Debug\UTILS.dll
+D:\Desenvolvimento\Workspace VisualStudio\CS_ERP\VIEWS\bin\Debug\EntityFramework.dll
+D:\Desenvolvimento\Workspace VisualStudio\CS_ERP\VIEWS\bin\Debug\DAL.pdb
+D:\Desenvolvimento\Workspace VisualStudio\CS_ERP\VIEWS\bin\Debug\DAL.dll.config
+D:\Desenvolvimento\Workspace VisualStudio\CS_ERP\VIEWS\bin\Debug\UTILS.pdb
+D:\Desenvolvimento\Workspace VisualStudio\CS_ERP\VIEWS\bin\Debug\EntityFramework.xml
+D:\Desenvolvimento\Workspace VisualStudio\CS_ERP\VIEWS\obj\Debug\VIEWS.csproj.CopyComplete

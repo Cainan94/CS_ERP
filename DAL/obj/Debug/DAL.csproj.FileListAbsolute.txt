@@ -1,0 +1,12 @@
+D:\Desenvolvimento\Workspace VisualStudio\CS_ERP\DAL\bin\Debug\DAL.dll.config
+D:\Desenvolvimento\Workspace VisualStudio\CS_ERP\DAL\bin\Debug\DAL.dll
+D:\Desenvolvimento\Workspace VisualStudio\CS_ERP\DAL\bin\Debug\DAL.pdb
+D:\Desenvolvimento\Workspace VisualStudio\CS_ERP\DAL\bin\Debug\EntityFramework.dll
+D:\Desenvolvimento\Workspace VisualStudio\CS_ERP\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Desenvolvimento\Workspace VisualStudio\CS_ERP\DAL\bin\Debug\EntityFramework.xml
+D:\Desenvolvimento\Workspace VisualStudio\CS_ERP\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Desenvolvimento\Workspace VisualStudio\CS_ERP\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+D:\Desenvolvimento\Workspace VisualStudio\CS_ERP\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\Desenvolvimento\Workspace VisualStudio\CS_ERP\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\Desenvolvimento\Workspace VisualStudio\CS_ERP\DAL\obj\Debug\DAL.dll
+D:\Desenvolvimento\Workspace VisualStudio\CS_ERP\DAL\obj\Debug\DAL.pdb
